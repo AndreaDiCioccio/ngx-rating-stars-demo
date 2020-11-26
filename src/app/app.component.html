@@ -3,6 +3,6 @@
         <h2>{{item.name}}</h2>
         <h4>{{item.description}}</h4>
         <p>{{item.price | currency:'EUR' }}</p>
-        <ngx-rating-stars [rating]="item.rating" [style]="ratingStyle"></ngx-rating-stars>
+        <ngx-rating-stars [rating]="item.rating" [style]="ratingStyle" [showRatingInNumericFormat]="true"></ngx-rating-stars>
     </div>
 </div>
